@@ -1,5 +1,3 @@
-
-
 package javaapplication13;
 import java.util.ArrayList;
 import javax.swing.JFrame;
@@ -16,7 +14,7 @@ public class Jogo{
     public ArrayList GerarDiscos(int x,int y,int z,int comp,int num){
        ArrayList disco = new ArrayList(10);
        disco.add(new Disco(x,y,comp,0));
-       for(int i=1;i<num;i++){
+       for(int i=0;i<num;i++){
             x=x-10;
             y=y+20;
             z=z+20;
