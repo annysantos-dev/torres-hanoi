@@ -40,7 +40,7 @@ public class ExemploBotao extends JFrame{
                         disco=novo.GerarDiscos(140,120,100,60,discos);
                         pino=novo.GerarPinos(140, 120, 60, discos);      
       
-                        if(discos>0) { novo.transfere(disco, pino, discos, discos-1, 0, 2, 1); }
+                        if(discos>0) { novo.transfere(disco, pino, discos, discos-1, 0, 2, 1, 0); }
                     }
         });
         tela.add(iniciar);

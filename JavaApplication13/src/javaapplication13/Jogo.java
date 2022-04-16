@@ -217,14 +217,14 @@ public class Jogo{
         }
         
         //solução das torres de hanoi
-        public void transfere(ArrayList disco, ArrayList pino,int num,int disc, int o, int d, int a){
+        public void transfere(ArrayList disco, ArrayList pino,int num,int disc, int o, int d, int a, int b){
             if(disc==0){
                 this.MoverDisco(disco, pino, num, disc, o, d);
             }
             else{
-                this.transfere(disco, pino, num,disc-1, o, a, d);
+                this.transfere(disco, pino, num,disc-1, o, a, d, b);
                 this.MoverDisco(disco, pino, num, disc, o, d);
-                this.transfere(disco, pino, num,disc-1, a, d, o);
+                this.transfere(disco, pino, num,disc-1, a, d, b, o);
             }
         }
 }

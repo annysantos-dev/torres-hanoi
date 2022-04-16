@@ -26,7 +26,7 @@ public class Shapes extends Thread{
       disco=novo.GerarDiscos(140,120,100,60,num);  // gerando discos a partir das coordenadas do primeiro disco (x,y,z,comprimento) 
       pino=novo.GerarPinos(140, 120, 60, num);     // gerando pinos a partir das coordenadas do primeiro disco (x,y,comprimento,num)
       
-      if(num>0) { novo.transfere(disco, pino, num, num-1, 0, 2, 1); } //solução das torres de hanoi
+      if(num>0) { novo.transfere(disco, pino, num, num-1, 0, 3, 2, 1); } //solução das torres de hanoi
           
    } 
 } 
