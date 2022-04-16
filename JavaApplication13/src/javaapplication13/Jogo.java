@@ -31,7 +31,8 @@ public class Jogo{
       int dist=(x+22)+(((num-1)*20)/2)+comp;
       pino.add(new Pino(x+22,y-20,x+39,(num*20)+20,num));
       pino.add(new Pino(x+22+dist,y-20,x+39+dist,(num*20)+20,0));
-      pino.add(new Pino(x+22+(2*dist),y-20,x+39+(2*dist),(num*20)+20,0));         
+      pino.add(new Pino(x+22+(2*dist),y-20,x+39+(2*dist),(num*20)+20,0));
+      pino.add(new Pino(x+22+(3*dist),y-20,x+39+(3*dist),(num*20)+20,0));
       return pino;
    }
    //método que move o disco para direita

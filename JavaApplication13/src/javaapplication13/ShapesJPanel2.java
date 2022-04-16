@@ -42,8 +42,7 @@ public class ShapesJPanel2 extends JPanel
          Color.WHITE, ((Pino)pino.get(0)).z, ((Pino)pino.get(0)).y, Color.GRAY) );  
       //.fill desenha uma figura preenchida - Rectangle2D.Double desenha um retangulo 
       g2d.fill( new Rectangle2D.Double(((Pino)pino.get(0)).x, ((Pino)pino.get(0)).y, 15, ((Pino)pino.get(0)).comp) );
-      
-      
+
       //pino 2
       g2d.setPaint( new GradientPaint(((Pino)pino.get(1)).x, ((Pino)pino.get(1)).y, 
          Color.WHITE, ((Pino)pino.get(1)).z, ((Pino)pino.get(1)).y, Color.GRAY) );  
@@ -53,8 +52,13 @@ public class ShapesJPanel2 extends JPanel
       g2d.setPaint( new GradientPaint(((Pino)pino.get(2)).x, ((Pino)pino.get(2)).y, 
          Color.WHITE, ((Pino)pino.get(2)).z, ((Pino)pino.get(2)).y, Color.GRAY) );  
       g2d.fill( new Rectangle2D.Double(((Pino)pino.get(2)).x, ((Pino)pino.get(2)).y, 15, ((Pino)pino.get(2)).comp) );
-      
-      //os discos
+
+       //pino 4
+       g2d.setPaint( new GradientPaint(((Pino)pino.get(3)).x, ((Pino)pino.get(3)).y,
+               Color.WHITE, ((Pino)pino.get(3)).z, ((Pino)pino.get(3)).y, Color.GRAY) );
+       g2d.fill( new Rectangle2D.Double(((Pino)pino.get(3)).x, ((Pino)pino.get(3)).y, 15, ((Pino)pino.get(2)).comp) );
+
+       //os discos
       for(int i=0;i<num;i++){
             //.setPaint define as cores do disco em gradiente metade azul metade preta
             g2d.setPaint( new GradientPaint(((Disco)disco.get(i)).x,((Disco)disco.get(i)).y, Color.BLUE, ((Disco)disco.get(i)).x, ((Disco)disco.get(i)).z, 
