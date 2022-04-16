@@ -7,7 +7,7 @@ public class Jogo{
 
     int velox = 20; //tempo de "sleep" da thread
     int e=20;       //unidade de movimentação dos discos
-    int dx = 950;   //dimesão x da janela
+    int dx = 1400;   //dimesão x da janela
     int dy = 500;   //dimesão y da janela
     
     //método que gera as os discos (as coordenadas)
