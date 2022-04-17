@@ -1,5 +1,6 @@
 /.idea/
 .DS_Store
+/torres-hanoi.iml/
 
 /lib/
 /abertura.cdr
