@@ -1,7 +1,9 @@
 /.idea/
+.DS_Store
 
 /lib/
 /abertura.cdr
 /hanoi.lnk
 /Torres de Hanoi.pptx
 /JavaApplication13.jar
+/torres-hanoi.iml
